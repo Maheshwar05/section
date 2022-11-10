@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    padding: 15px 6px;
+    background-color:darkblue;
+    background-size: cover;
+}
+nav img {
+    margin-right: 200px;
+}
+.shopping{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+.shopping li{
+    list-style: none;
+    padding: 10px 25px;
+    margin-left: 10px;
+    background-color: mediumblue;
+}
+.shopping li a{
+    text-decoration: none;
+    color: violet;
+    font-family: sans-serif;
+}
+.shopping li a:hover{
+    color: red;
+}
+#HOME{
+    margin-top: 20px;
+    align-items: center;
+}
+#ABOUT{
+    align-items: center;
+
+}
+#MENU{
+    align-items: center;
+}
+#CONTACT{
+    align-items: center;
+}
+.button{
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px;
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.HOME{
+    background-color: white;
+    height: 830px;
+    
+}
+.ABOUT{
+    background-color: white;
+    height: 430px;
+}
+.MENU{
+    height: 6200px;
+    width: 100%;
+}
+.CONTACT{
+    height: 300px;
+}
+.box-main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+.section{
+    margin-top: 30px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+footer{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
